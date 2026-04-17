@@ -1,0 +1,28 @@
+const MESSAGES = {
+  VALIDATION_ERROR: 'Validation error',
+  REGISTERED: 'Registered successfully',
+  LOGGED_IN: 'Logged in successfully',
+  USER_FETCHED: 'User fetched successfully',
+  FORBIDDEN: 'Forbidden',
+  ANALYTICS_NOT_FOUND: 'Analytics not found',
+  WEBHOOK_RECEIVED: 'Webhook received',
+  WEBHOOK_HANDLER_ERROR: 'Webhook handler error',
+  WEBHOOK_URL_VALIDATION_OK: 'URL validation ok',
+  WEBHOOK_MISSING_PLAIN_TOKEN: 'Missing plainToken',
+  MEETING_CREATED: 'Meeting created successfully',
+  MEETING_FETCHED: 'Meetings fetched successfully',
+  MEETING_ANALYTICS_FETCHED: 'Meeting analytics fetched successfully',
+  MEETING_NOT_FOUND: 'Meeting not found',
+  MEETING_DELETED: 'Meeting deleted successfully',
+  MEETING_UPDATED: 'Meeting updated successfully',
+  MEETING_STARTED: 'Meeting started successfully',
+  MEETING_ENDED: 'Meeting ended successfully',
+  MEETING_CANCELLED: 'Meeting cancelled successfully',
+  MEETING_RESCHEDULED: 'Meeting rescheduled successfully',
+  MEETING_RESTORED: 'Meeting restored successfully',
+  MEETING_ARCHIVED: 'Meeting archived successfully',
+  MEETING_UNARCHIVED: 'Meeting unarchived successfully',
+  API_HEALTH_OK: 'API working successfully',
+};
+
+module.exports = { MESSAGES };
